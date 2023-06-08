@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./todo.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+  </head>
+
+  <body>
+    <!-- <h1>Hare Krishan</h1> -->
+
+    <div id="todoBox">
+      <span style="font-size: 40px">&#128210;</span>
+      <h1 style="display: inline-block">Todo-List</h1>
+      <br />
+      <input
+        style="margin-top: 15px"
+        id="todoInput"
+        type="text"
+        placeholder="Write Down Todo here..."
+      />
+      <button id="add" onclick="aaa()">+</button>
+      <button id="del">X</button>
+      <div id="field">
+        <ol id="new1">
+          <li>
+            <h3 style="display: inline-block">Sample Todo Point</h3>
+            <button id="edit" onclick="editBtn(this)">Edit</button>
+            <button id="inDel" onclick="rem(this)">x</button>
+            <br />
+            <br />
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <script src="./todo.js"></script>
+  </body>
+</html>
