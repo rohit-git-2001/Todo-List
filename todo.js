@@ -57,9 +57,6 @@ function editBtn(e) {
   
     e.parentElement.replaceChild(editInput, e.previousElementSibling)
   }
-
-
-
 }
 
 function rem(e) {
