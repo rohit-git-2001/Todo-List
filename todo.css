@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+  background-color: yellow;
+}
+
+#todoBox {
+    border-radius: 7px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 540px;
+    border: 2px solid orange;
+    color: orange;
+    background-color:dodgerblue;
+}
+
+#todoInput {
+    padding: 0px 10px;
+    width: 80%;
+    border: 2px solid orange;
+}
+
+#add, #del,#inDel, #edit {
+    padding: .5px 1px;
+    width: 8%;
+}
+
+#field {
+    margin: 10px;
+    /* border: 2px solid black; */
+    color:black;
+    width: 500px;
+    padding: 2px;
+}
+
+#new1 {
+    padding: 5px 30px;
+}
+
+
+
+
+button:hover{
+    cursor: pointer;
+}
