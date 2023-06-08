@@ -1,5 +1,3 @@
-// Hare Krishan
-
 let input = document.getElementById("todoInput");
 var ol = document.getElementById("new1");
 
